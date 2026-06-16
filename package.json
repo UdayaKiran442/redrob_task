@@ -1,0 +1,17 @@
+{
+  "name": "redrob_task",
+  "scripts": {
+    "dev": "bun run --hot src/index.ts"
+  },
+  "dependencies": {
+    "@langchain/community": "^1.1.29",
+    "@types/node": "^25.9.3",
+    "dotenv": "^17.4.2",
+    "hono": "^4.12.25",
+    "pdf-parse": "^2.4.5",
+    "sarvamai": "^1.1.7"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}
