@@ -12,6 +12,7 @@
     "sarvamai": "^1.1.7"
   },
   "devDependencies": {
+    "@biomejs/biome": "2.5.0",
     "@types/bun": "latest"
   }
 }
