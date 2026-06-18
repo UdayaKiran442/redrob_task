@@ -5,9 +5,11 @@
   },
   "dependencies": {
     "@langchain/community": "^1.1.29",
+    "@pinecone-database/pinecone": "^8.0.0",
     "@types/node": "^25.9.3",
     "dotenv": "^17.4.2",
     "hono": "^4.12.25",
+    "nanoid": "^5.1.11",
     "pdf-parse": "^2.4.5",
     "sarvamai": "^1.1.7"
   },

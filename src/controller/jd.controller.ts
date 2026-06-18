@@ -21,6 +21,7 @@ export async function convertJDToEmbeddings(file: File) {
 		}
 		// convert the summary to embeddings
 		const { embeddings } = await convertTextToEmbeddingsService(summary);
+		console.log(embeddings);
 		return embeddings;
 	} catch (error) {
 		if (error instanceof SummariseJDServiceError || error instanceof ConvertTextToEmbeddingsServiceError) {
